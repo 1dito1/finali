@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:background="@color/white"
+    android:id="@+id/bookItem"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/bookImage"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/bookTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Example Title"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_toEndOf="@id/bookImage"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/bookDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Example Description"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_below="@+id/bookTitle"
+        android:layout_toEndOf="@id/bookImage"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/addToCart"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:padding="10dp"
+        android:src="@drawable/ic_add_cart" />
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "557167531318",
+    "project_id": "xuivo-98ae8",
+    "storage_bucket": "xuivo-98ae8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557167531318:android:e9eaa1a2ba83899f7f0f97",
+        "android_client_info": {
+          "package_name": "com.example.loginfinale"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "557167531318-g0b77idq53pt64nnlsqr9q9u50mat0i6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLHtqn1HRywrzWBXc8fu8hXbMK4WisUpM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "557167531318-g0b77idq53pt64nnlsqr9q9u50mat0i6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">loginFinale</string>
+    <string name="log_in">log in</string>
+    <string name="log_ln">log ln</string>
+</resources>
